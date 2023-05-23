@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Vamos Conversar!</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,800&display=swap"
+    rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $('#header').load("header.html");
+    });
+  </script>
+  <script>
+    $(function () {
+      $('#footer').load("footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+    </div>
+  </header>
+  <div class="backgroundletstalk">
+    <img src="" alt="">
+    
+    <div class="backgroundform">
+      <div class="logobackground">
+      </div>
+      <h3>Estamos aqui para ajudar.</h3>
+
+      <form action="">
+        <label for="name">Nome da Empresa:</label>
+        <input type="text" id="name" name="name" placeholder="Preencha este campo.">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Preencha este campo.">
+        <label for="ncont">Número Contribuinte:</label>
+        <input type="number" id="ncont" name="ncont" placeholder="Preencha este campo.">
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" placeholder="Preencha este campo.">
+        <label for="mensagem">Mensagem:</label>
+        <input type="text" class="mensagem" name="mensagem" >
+        <br>
+        <br>
+        <div class="buttonform">
+          <button class="button-talk">Submeter Formulário</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div id="footer"></div>
+  </footer>
+</body>
+
+</html>

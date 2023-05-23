@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Silmada</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,800&display=swap"
+    rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $('#header').load("header.html");
+    });
+  </script>
+  <script>
+    $(function () {
+      $('#footer').load("footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+    </div>
+  </header>
+  <div class="servicosHome">
+    <h1>Conheça as nossas soluções.</h1>
+    <h4>A nossa experiência permite a execução de todo o tipo de serviços aos nossos clientes a preços acessíveis e
+      colocando sempre a segurança em primeiro lugar.</h4>
+  </div>
+  
+  <div class="allServices">
+    <div class="servico"><img src="/Silmada/media/EQUIPAMENTOS/REPARACAO INDEX.png" alt="">
+      <div class="servicoText">
+        <h4>Equipamento</h4>
+        <ul>
+          <li> Reparação </li>
+          <li> Automação </li>
+          <li> Soldadura </li>
+          <li> Inovação </li>
+        </ul>
+      </div>
+      <button class="button-talk" onclick="window.location.href='http://127.0.0.1:5500/Silmada/equipamentos.html'">Saber
+        mais</button>
+    </div>
+    <div class="servico"><img src="/Silmada/media/ELETRONICA/eletronic.png" alt="">
+      <div class="servicoText">
+        <h4>Eletrónica</h4>
+        <ul>
+        <li> Reparação de Cartas Eletrónicas</li> 
+        <li> Robótica</li> 
+      </ul>
+      </div>
+      <button class="button-talk" onclick="window.location.href='http://127.0.0.1:5500/Silmada/eletrónica.html'">Saber
+        mais</button>
+    </div>
+    <div class="servico"><img src="/Silmada/media/INSTALACOES ELETRICAS/eletric.png" alt="">
+      <div class="servicoText">
+        <h4>Eletricidade</h4>
+        <ul>
+        <li>  Reparação de circuitos elétricos</li>
+         <li> Quadros elétricos</li>
+      </ul>
+
+      </div>
+      <button class="button-talk"
+        onclick="window.location.href='http://127.0.0.1:5500/Silmada/instalaçoesEletricas.html'">Saber mais</button>
+    </div>
+
+    <div class="servico"><img src="/Silmada/media/DOMOTICA/domos.png" alt="">
+      <div class="servicoText">
+        <h4>Domótica </h4>
+        <ul>
+          <li> Sistemas de segurança </li>
+          <li> Montagens de automatismos</li>
+        </ul>
+      </div>
+      <button class="button-talk" onclick="window.location.href='http://127.0.0.1:5500/Silmada/domotica.html'">Saber
+        mais</button>
+    </div>
+  </div>
+
+
+  <footer>
+    <div id="footer"></div>
+  </footer>
+</body>
+
+</html>
